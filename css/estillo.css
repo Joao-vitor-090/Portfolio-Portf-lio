@@ -181,6 +181,9 @@ div.card4 {
   margin:  2em 2em 2em 2em;
   min-width: 150px;
 }
+.card4:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.568);
+}
 .txtjava{
   margin: 0.9em;
   color: white;
@@ -254,3 +257,18 @@ div.card4 {
   span{
 color: white;
   }
+  @media( max-width:720px){
+    .card,.card2,.card3,.card4{
+      margin-left: 7em;
+    }
+    .card3{
+      margin-right: 8em;
+    }
+  }
+  @media( max-width:600px){
+    .card,.card2,.card3,.card4{
+      margin-left: 2em;
+    }
+    .card3{
+      margin-right: 2em;
+    }
