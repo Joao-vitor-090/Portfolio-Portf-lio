@@ -264,7 +264,7 @@ div.card4 {
     margin: 0 auto;
   }
   span{
-color: white;
+    color: white;
   }
   @media( max-width:720px){
     .card,.card2,.card3,.card4{
