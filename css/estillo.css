@@ -254,6 +254,15 @@ div.card4 {
   .cardalt2:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.568);
   }
+  table{
+    text-align: center;
+    margin: 0 auto;
+  }
+  td{
+    display: inline;
+    text-align: center;
+    margin: 0 auto;
+  }
   span{
 color: white;
   }
