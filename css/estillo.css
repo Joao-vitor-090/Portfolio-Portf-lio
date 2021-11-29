@@ -184,6 +184,37 @@ div.card4 {
 .card4:hover{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.568);
 }
+div.card5{
+  display: inline-block;
+    background-color: #015a839d;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 21.9%;
+    margin:  2em 2em 2em 2em;
+    min-height: 100px;
+    min-width: 150px;
+}
+div.card5:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.568);
+}
+div.card6{
+  display: inline-block;
+    background-color: #015a839d;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 21.9%;
+    margin:  2em 2em 2em 2em;
+    min-height: 100px;
+    min-width: 150px;
+}div.card6:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.568);
+}
 .txtjava{
   margin: 0.9em;
   color: white;
@@ -267,18 +298,24 @@ div.card4 {
     color: white;
   }
   @media( max-width:720px){
-    .card,.card2,.card3,.card4{
+    .card,.card2,.card3,.card4,.card5,.card6{
       margin-left: 7em;
     }
     .card3{
       margin-right: 8em;
     }
+    .card5{
+      margin-right: 8em;
+    }
   }
-  @media( max-width:600px){
-    .card,.card2,.card3,.card4{
+  @media( min-width:600px),(max-width:718px){
+    .card,.card2,.card3,.card4,.card5,.card6{
       margin-left: 2em;
     }
     .card3{
       margin-right: 2em;
+    }
+    .card5{
+      margin-right: 5em;
     }
   }
