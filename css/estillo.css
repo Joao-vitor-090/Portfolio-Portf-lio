@@ -29,6 +29,7 @@ width: 100%;
 padding: 30px 0;
 }
 .menu{
+  display: inline;
     position: relative;
     font-size: 18px;
     padding: 5px;
@@ -317,5 +318,17 @@ div.card6{
     }
     .card5{
       margin-right: 5em;
+    }
+  }
+  @media(max-width:750px){
+    .cardalt1,.cardalt2,.cardalt3{
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 3em;
+    }
+  }
+  @media(max-width:600px){
+    .menu{
+      margin: 1em;
     }
   }
